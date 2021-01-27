@@ -368,11 +368,19 @@ a[role="button"]:not([disabled]) {
 
 @font-face {
   font-family: 'Gilroy-Bold';
-  src: url("Gilroy-Bold.ttf"); }
+  src: url("/fonts/Gilroy-Bold.woff"); }
 
 @font-face {
   font-family: 'Gilroy-Medium';
-  src: url("Gilroy-Medium.ttf"); }
+  src: url("/fonts/Gilroy-Medium.woff"); }
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("/fonts/Gilroy-Bold.woff2"); }
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("/fonts/Gilroy-Medium.woff2"); }
 
 body {
   font-family: 'Gilroy-Medium'; }
@@ -415,10 +423,12 @@ body {
   line-height: 22px;
   text-decoration: none;
   color: #828282; }
-  .header__menu ul li a a:hover {
-    color: black; }
-  .header__menu ul li a a:active {
-    color: #828282; }
+
+.header__menu ul li a:hover {
+  color: black; }
+
+.header__menu ul li a:active {
+  color: #828282; }
 
 .intro {
   display: -webkit-box;
